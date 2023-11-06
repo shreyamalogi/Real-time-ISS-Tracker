@@ -1,16 +1,16 @@
 
-# ISS Tracker 🛰️🌐
+# Real Time ISS Tracker 🛰️🌐
 
-Welcome to the ISS Tracker project!
+Welcome to the beginner-friendly project - " Real Time ISS Tracker project! "
 
 Crafted and taught by **Shreya Malogi!** 🌐
 
-[![GitHub stars](https://img.shields.io/github/stars/shreyamalogi/iss-tracker.svg?style=social)](https://github.com/shreyamalogi/iss-tracker/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/shreyamalogi/Real-Time-ISS-Tracker.svg?style=social)](https://github.com/shreyamalogi/Real-Time-ISS-Tracker/stargazers)
 
 ### Project Details: 💻🌐📅✍️
 
 - **Functionality:** Tracks the International Space Station's (ISS) current location using the Open Notify API.
-- **Tech Stack:** `Python`, `Requests`
+- **Tech Stack:** `Python`, `Requests`, ` Open Notify API`
 - **Author:** [@shreyamalogi](https://github.com/shreyamalogi/)
 - **Year of Project:** 2021
   
@@ -35,7 +35,7 @@ Crafted and taught by **Shreya Malogi!** 🌐
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/shreyamalogi/iss-tracker.git
+git clone https://github.com/shreyamalogi/Real-Time-ISS-Tracker.git
 ```
 
 Ensure you have the necessary dependencies installed by running:
@@ -49,13 +49,13 @@ pip install requests
 Navigate to the project directory:
 
 ```bash
-cd iss-tracker
+cd Real-Time-ISS-Tracker
 ```
 
 Execute the following command:
 
 ```bash
-python iss_tracker.py
+python main.py
 ```
 
 The script will fetch and display the ISS's current location. Enjoy tracking! 🌍🛰️
@@ -70,11 +70,15 @@ The script will fetch and display the ISS's current location. Enjoy tracking! �
 
 ## Contribution 🤝
 
-Feel free to contribute by creating issues or pull requests.
+Feel the magic within you? Contribute to this enchanting spellbook and make it even more magical. Don't forget to star the project! ⭐🌟
 
 ## License 📜
 
 This ISS Tracker script is licensed under the MIT License.
 
+MIT License
+
+Copyright (c) 2021 Shreya Malogi
+
 Happy tracking! 🛰️🌐
-```
+
