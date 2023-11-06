@@ -1,2 +1,80 @@
-# iss-location
-to find the real time geographical location of the International Space Station by tracking the endpoints and making API calls 
+
+# ISS Tracker 🛰️🌐
+
+Welcome to the ISS Tracker project!
+
+Crafted and taught by **Shreya Malogi!** 🌐
+
+[![GitHub stars](https://img.shields.io/github/stars/shreyamalogi/iss-tracker.svg?style=social)](https://github.com/shreyamalogi/iss-tracker/stargazers)
+
+### Project Details: 💻🌐📅✍️
+
+- **Functionality:** Tracks the International Space Station's (ISS) current location using the Open Notify API.
+- **Tech Stack:** `Python`, `Requests`
+- **Author:** [@shreyamalogi](https://github.com/shreyamalogi/)
+- **Year of Project:** 2021
+  
+---
+
+## How It Works 
+
+1. The script makes an API request to [Open Notify](http://api.open-notify.org/iss-now.json).
+2. It uses the `requests` library to handle the HTTP request.
+3. The `raise_for_status()` method checks for any errors in the API response.
+4. The JSON response is then parsed to extract the ISS's current latitude and longitude.
+5. The latitude and longitude are stored in a tuple named `iss_position`.
+6. Finally, the script prints the ISS's current position.
+
+## Dependencies 
+
+- [Requests](https://docs.python-requests.org/en/latest/): Used for making HTTP requests to the Open Notify API.
+
+
+## Installation 
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/shreyamalogi/iss-tracker.git
+```
+
+Ensure you have the necessary dependencies installed by running:
+
+```bash
+pip install requests
+```
+
+## Running the Script 🏃
+
+Navigate to the project directory:
+
+```bash
+cd iss-tracker
+```
+
+Execute the following command:
+
+```bash
+python iss_tracker.py
+```
+
+The script will fetch and display the ISS's current location. Enjoy tracking! 🌍🛰️
+
+## Example Output 🌍
+
+```python
+('33.3136', '-9.0541')
+```
+
+
+
+## Contribution 🤝
+
+Feel free to contribute by creating issues or pull requests.
+
+## License 📜
+
+This ISS Tracker script is licensed under the MIT License.
+
+Happy tracking! 🛰️🌐
+```
