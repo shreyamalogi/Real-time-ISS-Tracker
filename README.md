@@ -16,6 +16,22 @@ Crafted and taught by **Shreya Malogi!** 🌐
   
 ---
 
+# Table of Contents
+
+- [Introduction](#introduction)
+- [How It Works](#how-it-works)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Running the Script](#running-the-script)
+- [Example Output](#example-output)
+- [Contribution](#contribution)
+- [License](#license)
+
+# Introduction 
+
+ 🚀 This Python script utilizes the Open Notify API to effortlessly retrieve and display the current location of the International Space Station (ISS). Whether you're an astronomy enthusiast or simply curious, join us in exploring the wonders of space and contribute to this spellbinding journey! ⭐
+
+
 ## How It Works 
 
 1. The script makes an API request to [Open Notify](http://api.open-notify.org/iss-now.json).
@@ -44,7 +60,7 @@ Ensure you have the necessary dependencies installed by running:
 pip install requests
 ```
 
-## Running the Script 🏃
+## Running the Script 
 
 Navigate to the project directory:
 
@@ -60,7 +76,7 @@ python main.py
 
 The script will fetch and display the ISS's current location. Enjoy tracking! 🌍🛰️
 
-## Example Output 🌍
+## Example Output 
 
 ```python
 ('33.3136', '-9.0541')
@@ -68,11 +84,11 @@ The script will fetch and display the ISS's current location. Enjoy tracking! �
 
 
 
-## Contribution 🤝
+## Contribution 
 
 Feel the magic within you? Contribute to this enchanting spellbook and make it even more magical. Don't forget to star the project! ⭐🌟
 
-## License 📜
+## License 
 
 This ISS Tracker script is licensed under the MIT License.
 
